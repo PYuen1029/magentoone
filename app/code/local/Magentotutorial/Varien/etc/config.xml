@@ -1,0 +1,27 @@
+<config>
+    <modules>
+        <Magentotutorial_Varien>
+            <version>0.1.0</version>
+        </Magentotutorial_Varien>
+    </modules>
+    <frontend>
+        <routers>
+            <varien>
+                <use>standard</use>
+                <args>
+                    <module>Magentotutorial_Varien</module>
+                    <frontName>varien</frontName>
+                </args>
+            </varien>
+        </routers>
+    </frontend>
+    <global>
+        <models>
+            <varien>
+                <class>Magentotutorial_Varien_Model</class>
+            </varien>
+        </models>
+        <resources>
+        </resources>
+    </global>
+</config>
